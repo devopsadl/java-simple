@@ -1,3 +1,5 @@
+name: Maven CI/CD
+
 on:
   push: 
     branch: [master]
