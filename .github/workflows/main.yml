@@ -14,3 +14,8 @@ jobs:
     
     - name: step-2
       run: echo hello world
+
+    - name: setup-java
+      uses: actions/setup-java@v1
+      with:
+        java-version: 14
